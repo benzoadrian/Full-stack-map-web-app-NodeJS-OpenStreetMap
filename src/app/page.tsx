@@ -16,8 +16,7 @@ export default async function Home() {
   ]).toArray();
 
   return (
-    <main className="w-full h-full">
-      
+    <main className="w-full h-full">      
       <TravelLogProvider>
         <TravelLogMap logs={logs} />
         <TravelLogSidebar />
