@@ -20,7 +20,6 @@ export default function TravelLogSidebar() {
   return (
     <>
       <div className="fixed top-2 right-2 z-[999]">
-      <h1 style={{ fontSize: "2.5rem" }}>Mark X Logistics</h1>;
         <button
           onClick={() => {
             if (state.map) {
