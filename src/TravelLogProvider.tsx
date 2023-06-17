@@ -44,7 +44,7 @@ function TravelLogReducer(
 
 export default function TravelLogProvider({ children }: AppProviderProps) {
   const [state, dispatch] = useReducer(TravelLogReducer, TravelLogInitialState);
-  return (    
+  return (
     <TravelLogContext.Provider
       value={{
         state,
